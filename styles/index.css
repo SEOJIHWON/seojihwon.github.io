@@ -31,6 +31,7 @@
   /* 빅 버튼 */
   /* 빅 버튼 배경 색 */
   --cta-button-bg: #FF6600;
+ 
   /* 빅 버튼 글자 색 */
   --cta-button-font: #ffffff;
 
@@ -42,7 +43,7 @@
 
   /* 하단 버튼 */
   /* 하단 버튼 배경 색 */
-  --cta-footer-button-bg: var(--cta-button-bg);
+  --cta-footer-button-bg:#0081B2;
   /* 하단 버튼 배경 색 */
   --cta-footer-button-font: var(--cta-button-font);
 
@@ -92,7 +93,7 @@
   /* 배경 색 */
   --team-title-bg :linear-gradient(359.25deg, #FFA971 -34.53%, #FF550D 99.02%);
   /* 글자 색 */
-  --team-title-font: var(--section-title-font);
+  --team-title-font: #ffffff;
   /* 카드 제목 색 */
   --team-card-bg: linear-gradient(359.25deg, #FFA971 -34.53%, #FF550D 99.02%);
   /* 카드 설명 색 */
@@ -178,6 +179,12 @@ nav {
   align-items: center;
   text-align: center;
 }
+.small_button{
+  width: 29px;
+  height: 89px;
+  border-radius: 8px;
+  
+}
 
 .nav {
   display: flex;
@@ -198,7 +205,7 @@ nav {
 
 /* 탑배너 */
 .top-banner__content {
-  margin: 123px 137px 48px 107px;
+  margin: 100px 137px 48px 107px;
 }
 
 .top-banner__right {
@@ -245,12 +252,13 @@ nav {
 /* 각 섹션 */
 
 .container {
-  margin: 75px 24px 0px 24px;
+  margin: 75px 24px 0px 75px;
+  
 }
 
 #service-section > .section-title {
   background-color: linear-gradient(359.25deg, #FFA971 -34.53%, #FF550D 99.02%);
-  
+
   color: var(--service-title-font);
 }
 
@@ -263,7 +271,8 @@ nav {
 }
 
 #service-section > .grid-3fr > .card__ > .card__subtitle {
-  color: var(--service-card-subtitle-font);
+  color: var(--service-card-subtitle-font)
+  
 }
 
 #product-section > .section-title {
@@ -311,6 +320,10 @@ nav {
   background-color: var(--team-card-tag-bg);
 }
 
+#team-section {
+  background: linear-gradient(359.25deg, #FFA971 -34.53%, #FF550D 99.02%);
+  height: 580px;
+}
 .section-title__main {
   font-size: 30px;
   margin-bottom: 11px;
@@ -351,7 +364,7 @@ nav {
 }
 .card__subtitle {
   font-family: light;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 24px;
   padding: 2px 0px;
   margin-bottom: 4px;
