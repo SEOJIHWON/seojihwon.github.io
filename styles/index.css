@@ -24,13 +24,13 @@
   /* 상단 배너 */
   /* 상단 배너 배경 색 */
   /* --top-banner-bg: var(--body-bg); */
-  --top-banner-bg: #000000;
+  --top-banner-bg: linear-gradient(83.84deg, #0B2859 41.1%, rgba(96, 43, 209, 0.47) 107.92%);
   /* 상단 배너 글자 색 */
   --top-banner-font: #ffffff;
 
   /* 빅 버튼 */
   /* 빅 버튼 배경 색 */
-  --cta-button-bg: #01c0e2;
+  --cta-button-bg: #FF6600;
   /* 빅 버튼 글자 색 */
   --cta-button-font: #ffffff;
 
@@ -90,11 +90,11 @@
   
   /* Team */
   /* 배경 색 */
-  --team-title-bg: var(--section-title-bg);
+  --team-title-bg :linear-gradient(359.25deg, #FFA971 -34.53%, #FF550D 99.02%);
   /* 글자 색 */
   --team-title-font: var(--section-title-font);
   /* 카드 제목 색 */
-  --team-card-bg: var(--section-card-bg);
+  --team-card-bg: linear-gradient(359.25deg, #FFA971 -34.53%, #FF550D 99.02%);
   /* 카드 설명 색 */
   --team-card-title-font: var(--section-card-title-font);
   /* 카드 설명 색 */
@@ -193,6 +193,7 @@ nav {
   background: var(--top-banner-bg);
   color: var(--top-banner-font);
   display: flex;
+  justify-content: space-between;
 }
 
 /* 탑배너 */
@@ -226,11 +227,11 @@ nav {
 }
 
 .top-banner__cta-button {
-  margin-top: 67px;
+  margin-top: 20px;
   background: var(--cta-banner-button-bg);
   color: var(--cta-banner-button-font);
   width: 310px;
-  height: 67px;
+  height: 55px;
   font-size: 20px;
   border-radius: 6px;
 }
@@ -248,7 +249,8 @@ nav {
 }
 
 #service-section > .section-title {
-  background-color: var(--service-title-bg);
+  background-color: linear-gradient(359.25deg, #FFA971 -34.53%, #FF550D 99.02%);
+  
   color: var(--service-title-font);
 }
 
@@ -348,6 +350,7 @@ nav {
   margin-bottom: 4px;
 }
 .card__subtitle {
+  font-family: light;
   font-size: 16px;
   line-height: 24px;
   padding: 2px 0px;
