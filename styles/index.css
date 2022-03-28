@@ -127,10 +127,10 @@ main {
 
 header {
   /* width: 1024px; */
-  width: 100%;
-  height: 64px;
-  padding-left: 5%;
-  padding-right: 5%;
+  width: 88%;
+  height: 68px;
+  padding-left: 7%;
+  padding-right: 7%;
   display: flex;
   position: sticky;
   top: 0px;
@@ -164,6 +164,8 @@ a {
 }
 /* 헤더 */
 .header__logo {
+  size width: 12px;
+  size height: 12px;
   margin-left: 24px;
 }
 
@@ -196,16 +198,18 @@ nav {
 }
 
 .top-banner {
-  height: 400px;
+  width:  100%;
+  height: 450px;
   background: var(--top-banner-bg);
   color: var(--top-banner-font);
   display: flex;
   justify-content: space-between;
+  border-radius: 9px;
 }
 
 /* 탑배너 */
 .top-banner__content {
-  margin: 100px 137px 48px 107px;
+  margin: 115px 137px 48px 107px;
 }
 
 .top-banner__right {
@@ -234,25 +238,29 @@ nav {
 }
 
 .top-banner__cta-button {
-  margin-top: 20px;
+  margin-top: 40px;
   background: var(--cta-banner-button-bg);
   color: var(--cta-banner-button-font);
-  width: 310px;
+  width: 320px;
   height: 55px;
   font-size: 20px;
   border-radius: 6px;
 }
 
 .top-banner__image {
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  position: ;
+  top: 50%;
+  left: 50%;
+  transform: translate(-4%, 0%);
 }
 
 /* 각 섹션 */
 
 .container {
-  margin: 75px 24px 0px 75px;
+  margin: auto
   
 }
 
